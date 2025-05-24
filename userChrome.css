@@ -1,0 +1,16 @@
+/* Hide the navigation bar completely */
+#nav-bar {
+  max-height: 0px !important;
+  min-height: 0px !important;
+  height: 0px !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Hide the address bar popup (megabar) */
+#urlbar {
+  height: 0px !important;
+  width: 0px !important;
+  opacity: 0 !important;
+}
